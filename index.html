@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flippy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="position: fixed; left: 20px; top: 20px; margin: 0;">Flippy</h1>
+    <div class="container">
+        
+        <div id="status" class="status info">Status: nothing</div>
+        
+        <div class="video-container">
+            <video id="video" autoplay playsinline></video>
+            <div class="crosshair crosshair-vertical"></div>
+            <div class="crosshair crosshair-horizontal"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn">Start Camera</button>
+            <button id="flipBtn">Regular</button>
+            <button id="crosshairBtn">x-hair: On</button>
+            <button id="zoomOutBtn">Zoom -</button>
+            <button id="zoomInBtn">Zoom +</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
