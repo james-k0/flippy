@@ -7,7 +7,7 @@ live camera, instaflip, crosshair, zoom
 
 ## Usage
 
-hosted at: [link](https://)
+hosted at: [github pages](https://james-k0.github.io/flippy/)
 
 ## Future maybe
 - video cap
